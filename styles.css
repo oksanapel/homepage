@@ -280,3 +280,29 @@ body {
     justify-content: flex-start;
     flex-direction: column;
   }
+
+/*Hobbies and interests*/
+  .hobbies__header {
+    color: var(--secondary-text-color);
+    margin-bottom: 20px;
+  }
+
+  .hobbies__example {
+    color: var(--secondary-text-color);
+    margin-left: 20px;
+  }
+
+  .hobby__film__picture__item {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .container__hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
