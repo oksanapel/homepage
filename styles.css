@@ -14,8 +14,8 @@ body {
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
   --icon-color: #6a737d;
-  --border-color: #ff9a0045;
-  --text-decoration-color: #ff9a00;
+  --border-color: #76a77b;
+  --text-decoration-color: #86b15d;
 }
 
 .container {
@@ -127,9 +127,11 @@ body {
 }
 
 .contact-info__avatar {
+  margin-right: 20px;
+  margin-left: 20px;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
@@ -173,6 +175,7 @@ body {
   .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+    margin-left: 20px;
   }
 
 
@@ -271,4 +274,35 @@ body {
   .additional-info__languages-item {
     color: var(--secondary-text-color);
   }
-  
+
+  .fv-start {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+/*Hobbies and interests*/
+  .hobbies__header {
+    color: var(--secondary-text-color);
+    margin-bottom: 20px;
+  }
+
+  .hobbies__example {
+    color: var(--secondary-text-color);
+    margin-left: 20px;
+  }
+
+  .hobby__film__picture__item {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .container__hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
