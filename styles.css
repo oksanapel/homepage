@@ -175,6 +175,7 @@ body {
   .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+    margin-left: 20px;
   }
 
 
@@ -273,4 +274,9 @@ body {
   .additional-info__languages-item {
     color: var(--secondary-text-color);
   }
-  
+
+  .fv-start {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
